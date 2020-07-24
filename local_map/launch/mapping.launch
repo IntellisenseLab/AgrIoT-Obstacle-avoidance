@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="local_map" type="local_map_node" name="mapping" >
+  <rosparam file="$(find local_map)/launch/costmap.yaml" ns="local_map" />
+ </node>
+
+</launch>
